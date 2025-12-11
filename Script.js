@@ -25,21 +25,17 @@ const articles = {
     image:
       "https://images.unsplash.com/photo-1506967726964-da9127fdec36?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     body: `
-
-
-
-
-    <p>Over the past few years, artificial intelligence (AI) has evolved from just a research tool into something capable of composing sounds and recreating the voices of famous musicians. What may have begun as experiments on platforms like TikTok and YouTube—where users created “AI Drake” or “AI Kanye” remixes for laughs—has now grown into a phenomenon that blurs the boundaries between art and forgery.</p>
+    <p>Over the past few years, artificial intelligence (AI) has evolved from just a research tool into something capable of composing sounds and recreating the voices of famous musicians. What may have begun as experiments on platforms like TikTok and YouTube—where users created "AI Drake" or "AI Kanye" remixes for laughs—has now grown into a phenomenon that blurs the boundaries between art and forgery.</p>
 
 <p>AI music has reached a tipping point where it can convincingly replicate an artist's tone, rhythm, and style. Most importantly, this is done without their involvement or consent. As these technologies become more advanced and accessible, they begin to challenge not only what it means to create music but also who has the right to be called its creator.</p>
 
 <p>Currently, the conversation around AI music centers on excitement and entertainment, often overlooking the responsibility involved. Many creators and distributors of AI songs neglect to consider the ethical and legal implications of their actions. As the distinction between abuse and imitation becomes less clear, it raises a critical question: How can innovation be recognized without compromising integrity?</p>
 
 <p>This issue highlights a growing legal problem. Current copyright laws do not protect the human voice, leaving artists vulnerable to illegal voice cloning (Widodo and Bakir). Furthermore, AI models are trained on vast libraries of copyrighted music without recognition or payment, raising significant concerns about ownership and compensation (Deng and Ma). In addition to threatening musicians' futures, these practices undermine trust in the music industry. Without clear regulation, AI music risks transforming art into data and artists into mere sources.</p>
-
     `,
   },
-  hydrogen: {
+
+  voiceCloning: {
     imageCredit: {
       photographer: "testingggg",
       photographerUrl:
@@ -55,7 +51,7 @@ const articles = {
     image:
       "https://images.unsplash.com/photo-1506967726964-da9127fdec36?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     body: `
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, pariatur
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, pariatur
     rem? Excepturi quasi ullam laboriosam! Ipsum reiciendis molestiae eos, qui
     quaerat tempora quam nemo dolor consequuntur sapiente laborum amet sed quas
     at odit iure voluptatum laudantium illum aliquam modi. Consectetur debitis
@@ -78,10 +74,10 @@ const articles = {
     voluptatem eveniet ex ipsa iusto, nobis repellat dignissimos voluptas cum
     veniam ea inventore?
     </p>
-          `,
+    `,
   },
 
-  aiArt: {
+  copyrightBrink: {
     imageCredit: {
       photographer: "Júnior Ferreira",
       photographerUrl:
@@ -90,33 +86,32 @@ const articles = {
         "https://unsplash.com/photos/person-catching-light-bulb-7esRPTt38nI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     },
     title:
-      "Copyright on the Brink: Why Current Law Can’t Keep Up With AI Music",
+      "Copyright on the Brink: Why Current Law Can't Keep Up With AI Music",
     subtitle:
       "U.S. AI policies favor innovation over enforcement, leaving artists vulnerable, unlike stricter EU regulations.",
     byline: "By Alex Turner — Published Nov 20, 2025",
     image: "https://via.placeholder.com/800x400?text=AI+Art",
     body: `
-           <p>The United States currently uses a decentralized, market-driven approach to AI policy. Companies are encouraged to manage risks like bias, misuse, and ethical concerns, but these guidelines are voluntary. Unlike the EU’s AI Act, which enforces strict rules, U.S. policies rely on self-regulation. This leaves artists vulnerable to unlicensed voice cloning and copyright violations.</p>
+    <p>The United States currently uses a decentralized, market-driven approach to AI policy. Companies are encouraged to manage risks like bias, misuse, and ethical concerns, but these guidelines are voluntary. Unlike the EU's AI Act, which enforces strict rules, U.S. policies rely on self-regulation. This leaves artists vulnerable to unlicensed voice cloning and copyright violations.</p>
 
-    <p>While agencies like NIST provide frameworks for AI risk management, their recommendations carry no legal weight. Executive orders, such as Biden’s on “Safe, Secure, and Trustworthy AI,” urge labeling deepfakes and AI-generated content, but lack enforceability. Without mandatory compliance, AI misuse can go unpunished, creating gaps that threaten both creativity and compensation for musicians.</p>
+    <p>While agencies like NIST provide frameworks for AI risk management, their recommendations carry no legal weight. Executive orders, such as Biden's on "Safe, Secure, and Trustworthy AI," urge labeling deepfakes and AI-generated content, but lack enforceability. Without mandatory compliance, AI misuse can go unpunished, creating gaps that threaten both creativity and compensation for musicians.</p>
 
-    <p>
-The EU enforces binding obligations for AI development, ensuring accountability and legal consequences for violations. In contrast, U.S. policies prioritize technological innovation, which can encourage rapid growth but fails to protect artists effectively. This regulatory gap allows companies to experiment without clear responsibility for consent or copyright adherence.    </p>
+    <p>The EU enforces binding obligations for AI development, ensuring accountability and legal consequences for violations. In contrast, U.S. policies prioritize technological innovation, which can encourage rapid growth but fails to protect artists effectively. This regulatory gap allows companies to experiment without clear responsibility for consent or copyright adherence.</p>
             
-<p>Musicians face real risks from unregulated AI. Their voices and styles can be cloned and monetized without permission, undermining both their income and artistic control. Voluntary guidelines alone cannot prevent large-scale abuse, and without clear regulation, creative integrity is at stake.</p>
+    <p>Musicians face real risks from unregulated AI. Their voices and styles can be cloned and monetized without permission, undermining both their income and artistic control. Voluntary guidelines alone cannot prevent large-scale abuse, and without clear regulation, creative integrity is at stake.</p>
 
-<p>These flaws highlight the need for enforceable legislation. A national voice registry, explicit consent requirements, and coordinated oversight by agencies like the USCO and FTC could create a practical system. By combining legal authority with existing technology, artists could be protected without stifling innovation.</p>
-          `,
+    <p>These flaws highlight the need for enforceable legislation. A national voice registry, explicit consent requirements, and coordinated oversight by agencies like the USCO and FTC could create a practical system. By combining legal authority with existing technology, artists could be protected without stifling innovation.</p>
+    `,
   },
 
-  vcFunding: {
-    title: "How AI Music Oversight Could Work",
+  congressPressure: {
+    title: "Congress Faces Pressure to Regulate AI Music Platforms",
     subtitle:
-      "Monitoring AI-generated music wouldn’t require new agencies. Platforms could use automated detection while USCO and FTC handle disputes. Funding through licensing fees makes the system self-sustaining, proving large-scale enforcement is practical.",
+      "Monitoring AI-generated music wouldn't require new agencies. Platforms could use automated detection while USCO and FTC handle disputes. Funding through licensing fees makes the system self-sustaining, proving large-scale enforcement is practical.",
     byline: "By Sarah Chen — Published Nov 15, 2025",
     image: "https://via.placeholder.com/800x400?text=VC+Funding",
     body: `
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, pariatur
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, pariatur
     rem? Excepturi quasi ullam laboriosam! Ipsum reiciendis molestiae eos, qui
     quaerat tempora quam nemo dolor consequuntur sapiente laborum amet sed quas
     at odit iure voluptatum laudantium illum aliquam modi. Consectetur debitis
@@ -139,7 +134,73 @@ The EU enforces binding obligations for AI development, ensuring accountability 
     voluptatem eveniet ex ipsa iusto, nobis repellat dignissimos voluptas cum
     veniam ea inventore?
     </p>
-          `,
+    `,
+  },
+
+  buildingLaws: {
+    imageCredit: {
+      photographer: "Olena Bohovyk",
+      photographerUrl:
+        "https://unsplash.com/@olenkasergienko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      photoUrl:
+        "https://unsplash.com/photos/books-on-brown-wooden-shelf-Ft_Wn-K5YH8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    },
+    title: "Building AI Music Laws",
+    subtitle:
+      "U.S. AI rules are voluntary, leaving artists unprotected. Binding laws and real consent systems are needed.",
+    byline: "By Your Name — Published Dec 11, 2025",
+    image: "./assets/images/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg",
+    body: `
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur rem? Excepturi quasi ullam laboriosam! Ipsum reiciendis molestiae eos, qui quaerat tempora quam nemo dolor consequuntur sapiente laborum amet sed quas at odit iure voluptatum laudantium illum aliquam modi.</p>
+
+    <p>Consectetur debitis rerum saepe, adipisci assumenda quae rem eos numquam incidunt unde id soluta at nisi cum voluptatibus consequuntur. Dolorum tempore consectetur ut neque repellendus! Minima magni quasi voluptate, accusamus ex animi optio molestias provident facilis ullam at ipsa quae labore rerum in vel tempore porro.</p>
+
+    <p>Add your actual article content here about building AI music laws, regulatory frameworks, and the need for binding legislation to protect artists from unauthorized voice cloning and AI-generated content.</p>
+    `,
+  },
+
+  systemWorks: {
+    imageCredit: {
+      photographer: "Airalo",
+      photographerUrl:
+        "https://unsplash.com/@airalo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      photoUrl:
+        "https://unsplash.com/photos/person-holding-smartphone-browsing-travel-app-36cLNK7lzg4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    },
+    title: "A System That Can Work",
+    subtitle:
+      "AI music rules are feasible using current agencies, upgraded systems, and platform moderation.",
+    byline: "By Your Name — Published Dec 11, 2025",
+    image: "./assets/images/airalo-36cLNK7lzg4-unsplash.jpg",
+    body: `
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur rem? Excepturi quasi ullam laboriosam! Ipsum reiciendis molestiae eos, qui quaerat tempora quam nemo dolor consequuntur sapiente laborum amet sed quas at odit iure voluptatum laudantium illum aliquam modi.</p>
+
+    <p>Consectetur debitis rerum saepe, adipisci assumenda quae rem eos numquam incidunt unde id soluta at nisi cum voluptatibus consequuntur. Dolorum tempore consectetur ut neque repellendus! Minima magni quasi voluptate, accusamus ex animi optio molestias provident facilis ullam at ipsa quae labore rerum in vel tempore porro.</p>
+
+    <p>Add your actual article content here about how a practical AI music regulation system could work using existing agencies like USCO and FTC, automated platform detection, and sustainable funding models.</p>
+    `,
+  },
+
+  aiMyths: {
+    imageCredit: {
+      photographer: "Júnior Ferreira",
+      photographerUrl:
+        "https://unsplash.com/@juniorferreir_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      photoUrl:
+        "https://unsplash.com/photos/person-catching-light-bulb-7esRPTt38nI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    },
+    title: "Addressing AI Music Myths",
+    subtitle:
+      "AI music isn't harmless parody; today's cloning is realistic and harmful, making regulation necessary.",
+    byline: "By Your Name — Published Dec 11, 2025",
+    image: "./assets/images/junior-ferreira-7esRPTt38nI-unsplash.jpg",
+    body: `
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur rem? Excepturi quasi ullam laboriosam! Ipsum reiciendis molestiae eos, qui quaerat tempora quam nemo dolor consequuntur sapiente laborum amet sed quas at odit iure voluptatum laudantium illum aliquam modi.</p>
+
+    <p>Consectetur debitis rerum saepe, adipisci assumenda quae rem eos numquam incidunt unde id soluta at nisi cum voluptatibus consequuntur. Dolorum tempore consectetur ut neque repellendus! Minima magni quasi voluptate, accusamus ex animi optio molestias provident facilis ullam at ipsa quae labore rerum in vel tempore porro.</p>
+
+    <p>Add your actual article content here about debunking common myths around AI music generation, including misconceptions about it being harmless parody or fair use, and why realistic voice cloning demands regulatory action.</p>
+    `,
   },
 };
 
