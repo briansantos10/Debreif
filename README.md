@@ -1,35 +1,12 @@
-**Link to page: https://briansantos10.github.io/MultiProj/**
+## Project Overview
 
-# Front-end Style Guide
+This project is a front-end website that examines how current copyright laws fall short when it comes to AI-generated voice cloning. The site is designed to resemble a modern digital newspaper, using a clean layout and interactive pop-up articles to present information in a clear, engaging way.
 
-## Layout
+**Live site:**  
+https://briansantos10.github.io/MultiProj/
 
-The designs were created to the following widths:
+---
 
-- Mobile: 375px
-- Desktop: 1440px
+## Motivation
 
-## Colors
-
-### Primary
-
-- Soft orange: hsl(35, 77%, 62%)
-- Soft red: hsl(5, 85%, 63%)
-
-### Neutral
-
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700, 800
+I built this project to explore a timely issue at the intersection of technology, creativity, and policy while practicing full front-end development from design to implementation. I wanted to create a site that feels familiar to everyday readers but polished and modern enough to appeal to technical audiences, with a strong focus on usability, layout, and visual clarity.
